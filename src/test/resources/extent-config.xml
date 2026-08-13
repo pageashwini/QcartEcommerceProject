@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<extentreports>
+    <configuration>
+
+        <!-- Report Theme -->
+        <theme>standard</theme>
+
+        <!-- Report Title -->
+        <documentTitle>Qcart Automation Report</documentTitle>
+
+        <!-- Report Name -->
+        <reportName>Qcart Test Execution Report</reportName>
+
+        <!-- Encoding -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Timezone -->
+        <timeStampFormat>yyyy-MM-dd HH:mm:ss</timeStampFormat>
+
+        <!-- Enable/Disable Timeline -->
+        <timelineEnabled>true</timelineEnabled>
+
+        <!-- Enable/Disable Offline Mode -->
+        <enableOfflineMode>true</enableOfflineMode>
+
+        <!-- JS Configuration -->
+        <js>
+        </js>
+
+        <!-- CSS Configuration -->
+        <css>
+        </css>
+
+    </configuration>
+</extentreports>
