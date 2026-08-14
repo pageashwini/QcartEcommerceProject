@@ -31,9 +31,14 @@ Feature: Qcart online e-commerce website verification.
     Then User should be able to register themself
     And Verify user is able to logged in successfully with new ID
 
-  @scenario2
+  @scenario1
   Scenario: Verify user is able to add the product into cart
     When User click on the login button
     Then Verify user is able to logged in successfully
     And Verify user is able to add the product in cart successfully
     And Verify that user is not able to add same product again into cart
+
+  @scenario1
+  Scenario: Verify user is able to add the shoe and size into cart
+    When User click on the login button
+    Then Verify user is able to logged in successfully
